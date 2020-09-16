@@ -1,0 +1,67 @@
+*{margin:0;padding:0;}
+
+body {
+  background:url("https://atgbcentral.com/data/out/68/4511874-nebula-wallpaper.jpg");
+  background-size:cover;
+  font-family:helvetica;
+  letter-spacing:-1px;
+}
+
+.container{	  
+  background:rgba(24,34,34, 0.8);
+  height:100vh;
+  padding:3% 1% 1% 1%;
+  text-align:center;
+  min-width:98%;
+}
+
+#card-cont{
+	display:inline-table;
+	width:280px;
+}
+.card{
+	color:#222;
+	font-size:36px;
+	font-family:;
+	display:cell;
+	text-align:center;
+	width:300px;
+}
+.card-img{
+  border:4px solid #282828;
+  border-radius:15px;
+}
+.img1{
+  background:url("https://imagecomics.com/uploads/releases/_main/Warframe05Cov.jpg");
+   background-size:100%;
+}
+.img2{
+    background:url("https://imagecomics.com/uploads/releases/Warframe04_cvr.jpg");
+   background-size:100%;
+}
+.img3{
+  background:url("http://pm1.narvii.com/6562/1a354131dbd2e400ce8b4ffcad025d20183a2a0f_hq.jpg");
+  background-size:100%;
+}
+.img4{
+  background:url("https://pre00.deviantart.net/338b/th/pre/f/2012/060/4/2/120225_robot_by_thompson46-d4rdhzu.jpg");
+  background-size:200%;
+  background-position:center;
+}
+    
+.card-img:hover{
+  box-shadow:2px 0 4px #14567B, -2px 0 4px #14567B, 0px -2px 4px #ccc;
+	transition:.5s ease;
+}
+.content {
+	width: 280px;
+	height: 350px;
+	display:cell;
+}
+#card-cont p{
+	color:#989898;
+	font-size:26px;
+	margin-top:10px;
+  margin-left:-4px;
+  text-trasnform:uppercase;
+}
